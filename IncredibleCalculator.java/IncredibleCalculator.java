@@ -25,7 +25,10 @@ public class IncredibleCalculator {
                     System.out.println(suma);
                     break;
             case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
-                 
+                    num1 = Leer.leerEnteroEntrada();
+                    num2 = Leer.leerEnteroEntrada();
+                    resta = num1-num2;
+                    System.out.println(resta);
                     break;
             case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
                
