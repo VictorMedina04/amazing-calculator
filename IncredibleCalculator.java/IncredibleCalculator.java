@@ -37,10 +37,16 @@ public class IncredibleCalculator {
                     System.out.println(producto);
                     break;
             case 4: // Division entera. Debes leer dos números enteros de entrada e imprimir su división entera.
-                   
+                    num1 = Leer.leerEnteroEntrada();
+                    num2 = Leer.leerEnteroEntrada();
+                    division = num1/num2;
+                    System.out.println(division);
                     break;
             case 5: // Division decimales. Debes leer dos números enteros de entrada e imprimir su división con decimales.
-                
+                    num1 = Leer.leerEnteroEntrada();
+                    num2 = Leer.leerEnteroEntrada();
+                    divisionDecimales = num1/num2;
+                    System.out.println(divisionDecimales);
                     break;
 
         }
